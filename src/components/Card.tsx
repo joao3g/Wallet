@@ -4,9 +4,9 @@ import styled from 'styled-components'
 const Main = styled.div`
     background-color: #FFF;
 
-    border-radius: 10px;
+    border-radius: 16px;
 
-    padding: 15px;
+    padding: 48px 16px;
 `
 
 export default function Card() {
