@@ -2,17 +2,25 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Main = styled.div`
-    background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
 
-    border-radius: 16px;
+  background-color: #FFF;
 
-    padding: 48px 16px;
+  border-radius: 16px;
+
+  padding: 16px 48px;
+
+  max-width: 360px;
 `
 
 export default function Card() {
   return (
     <Main>
-        <h1>Jota</h1>
+        <h1>R$ 1700</h1>
     </Main>
   )
 }
