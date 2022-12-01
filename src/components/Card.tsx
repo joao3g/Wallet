@@ -10,7 +10,7 @@ const Main = styled.div`
 
   background-color: #FFF;
 
-  border-radius: 16px;
+  border-radius: 32px;
 
   padding: 16px 48px;
 
